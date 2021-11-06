@@ -1,6 +1,6 @@
 module.exports.profile= function(req,res){
-    return res.render('users',{
-        title: "users"
+    return res.render('users_profile',{
+        title: "user profile"
     });
 }
 
@@ -17,4 +17,14 @@ module.exports.signIn = function (req, res) {
     return res.render('user_sign_in', {
         title: "codeial | sign in"
     })
+}
+
+
+//get the sign_up dat
+module.exports.create=function(req,res){
+    //todo
+}
+
+module.exports.createSession = function (req, res) {
+    //todo
 }
